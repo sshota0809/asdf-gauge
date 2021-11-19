@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-if [ ! -d ~/.gauge-$ASDF_INSTALL_VERSION ]; then
-  mkdir ~/.gauge-$ASDF_INSTALL_VERSION
+if [ ! -d $HOME/.gauge-$ASDF_INSTALL_VERSION ]; then
+  mkdir $HOME/.gauge-$ASDF_INSTALL_VERSION
 fi
 
-export GAUGE_HOME="~/.gauge-$ASDF_INSTALL_VERSION"
+export GAUGE_HOME="$HOME/.gauge-$ASDF_INSTALL_VERSION"
