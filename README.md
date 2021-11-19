@@ -28,7 +28,7 @@ Plugin:
 ```shell
 asdf plugin add gauge
 # or
-asdf plugin add gauge https://github.com/hanaugai/asdf-gauge.git
+asdf plugin add gauge https://github.com/sshota0809/asdf-gauge.git
 ```
 
 gauge:
